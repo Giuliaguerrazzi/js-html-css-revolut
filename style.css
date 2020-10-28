@@ -1,3 +1,9 @@
+/* utilities */
+.pos-relative {
+  position: relative;
+}
+
+
 * {
   margin: 0;
   padding: 0;
@@ -30,4 +36,55 @@ header{
 .nav-left li,
 .nav-right li {
   margin: 10px;
+}
+
+.nav-right li i {
+  color: #999;
+  font-size: 8px;
+}
+
+.nav-right button {
+  background: #FF0080;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  color: #fff;
+}
+
+a:hover {
+  color: #000;
+}
+
+.nav-right button:hover {
+  background: #fff;
+  color: #ff0080;
+  border: 1px solid #ff0080;
+}
+
+.dropdown .dropdown-menu span {
+  position: absolute;
+  top: -10px;
+  color: #ff0080;
+}
+
+/* dropdown */
+.action-list li.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: -90%;
+  width: 200px;
+  padding: 20px;
+  box-shadow: 0 0 3px #888;
+  color: #999;
+  margin-top: 5px;
+}
+
+.dropdown-menu ul {
+  display: flex;
+  flex-direction: column;
 }
