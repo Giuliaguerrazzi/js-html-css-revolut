@@ -4,7 +4,7 @@ $(document).ready( function () {
   var dropMenu = $('.dropdown > .dropdown-menu');
 
   // show and hide
-  dropClick.click( function () {
+  dropClick.mouseenter( function () {
 
     var menu = $(this).next('.dropdown-menu');
 
