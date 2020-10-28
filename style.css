@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-left img {
+  width: 65px;
+  height: 20px;
+}
+
+header{
+  display: flex;
+  justify-content: space-around;
+  margin: 30px 0;
+}
+
+.nav-left ul,
+.nav-right ul{
+  display: flex;
+  list-style: none;
+}
+
+.nav-left a,
+.nav-right a {
+  text-decoration: none;
+  color: #999;
+}
+
+.nav-left li,
+.nav-right li {
+  margin: 10px;
+}
